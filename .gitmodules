@@ -1,0 +1,15 @@
+[submodule "smbase"]
+	path = smbase
+	url = ../smbase
+[submodule "smflex"]
+	path = smflex
+	url = ../smflex
+[submodule "ast"]
+	path = ast
+	url = ../ast
+[submodule "elkhound"]
+	path = elkhound
+	url = ../elkhound
+[submodule "elsa"]
+	path = elsa
+	url = ../elsa

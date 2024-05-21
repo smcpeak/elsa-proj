@@ -1,0 +1,15 @@
+#!/bin/sh
+# Recursively configure sub-modules.
+
+set -x
+set -e
+
+(cd smflex && ./configure)
+(cd smbase && ./configure)
+(cd ast && ./configure)
+(cd elkhound && ./configure)
+(cd elsa && ./configure)
+
+echo "Done configuring in elsa-proj"
+
+# EOF
