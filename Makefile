@@ -37,4 +37,11 @@ distclean:
 	@echo
 	@echo "elsa-proj 'make distclean' finished."
 
+git-status:
+	(cd smbase; git status)
+	(cd smflex; git status)
+	(cd ast; git status)
+	(cd elkhound; git status)
+	(cd elsa; git status)
+
 # EOF
