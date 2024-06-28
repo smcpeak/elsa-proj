@@ -43,5 +43,6 @@ git-status:
 	(cd ast; git status)
 	(cd elkhound; git status)
 	(cd elsa; git status)
+	git status
 
 # EOF
